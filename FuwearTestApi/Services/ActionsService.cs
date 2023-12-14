@@ -2,6 +2,7 @@
 using FuwearTestApi.Abstractions;
 
 namespace FuwearTestApi.Services;
+
 public class ActionsService : IActionsService
 {
     public ActionPriceInfo GetActionWithHighestAvgPrice(string[] actions, IEnumerable<IEnumerable<double>> prices)

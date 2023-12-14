@@ -1,5 +1,5 @@
 using FuwearTestApi.Services;
-using FuwearTestApi.Utils;
+using FuwearTestApi.Helpers;
 
 namespace FuwearTestApi.Tests;
 
@@ -27,7 +27,7 @@ public class UnitTestActionsService
     [TestMethod]
     public void TestWithJsonFile()
     {
-        string filePath = "../../../../Data/ActionPrice.json";
+        string filePath = "./Data/ActionPrice.json";
         string jsonData =  File.ReadAllText(filePath);
         var actionsPrices = ActionPriceSerializer.Deserialize(jsonData);
 

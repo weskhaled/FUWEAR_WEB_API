@@ -18,5 +18,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FuwearTestApi\FuwearTestApi.csproj" />
+    <None Update="Data\ActionPrice.json">
+      <CopyToOutputDirectory>Allways</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 </Project>

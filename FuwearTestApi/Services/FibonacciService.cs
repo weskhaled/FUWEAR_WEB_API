@@ -1,6 +1,7 @@
 using FuwearTestApi.Abstractions;
 
 namespace FuwearTestApi.Services;
+
 public class FibonacciService : IFibonacciService
 {
     public int GetFibonacciNumber(int n)
