@@ -17,13 +17,23 @@ You need to have .NET 8.0 installed on your machine. You can download it from th
 To get a development environment running, clone the repository and open the solution in your preferred IDE (like Visual Studio).
 
 ```bash
-git clone <repository-url>
-cd <test-project-directory>
-dotnet test
-
-Built With
-.NET 8.0 - The framework used
-xUnit - The testing framework used
-Authors
-Your Name - Initial work - YourName
+git clone https://github.com/weskhaled/FUWEAR_WEB_API.git webApi
+cd webApi
 ```
+
+#### To run the unit tests, use the following command:
+```bash
+dotnet test
+```
+#### To execute the project, use the following command:
+```bash
+dotnet run --project FuwearTestApi
+```
+
+
+## Built With
+#### NET 8.0
+#### xUnit
+
+## Authors
+### OUESLATI Khaled - Full-Stack web developer
