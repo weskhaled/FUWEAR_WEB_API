@@ -2,7 +2,7 @@
 
 ## Description
 
-FUWEAR_WEB_API is a web API built with .NET 8.0. The solution contains two projects: the API itself and a separate project for testing the API using xUnit.
+FUWEAR_WEB_API is a web API built with .NET 8.0. The solution contains two projects: the API itself and a separate project for testing the API using MSTest.
 
 ## Getting Started
 
@@ -33,7 +33,7 @@ dotnet run --project FuwearTestApi
 
 ## Built With
 #### NET 8.0
-#### xUnit
+#### MSTest
 
 ## Authors
 ### OUESLATI Khaled - Full-Stack web developer
